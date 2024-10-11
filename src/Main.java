@@ -8,7 +8,7 @@ public class Main {
         }
 
         //task2
-        for (int i = 10; i >= 0; i--){
+        for (int i = 10; i >= 1; i--){
             System.out.println(i);
         }
 
@@ -38,6 +38,12 @@ public class Main {
         }
         //task7
 
+        for (int i = 1; i <= 512; i *= 2){
+            System.out.println(i);
+        }
+
+
+        //task 9
         int myYearSavings = 0;
 
         for (int i = 1; i <= 12; i++){
@@ -45,7 +51,14 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + myYearSavings + " рублей");
         }
 
-        //task8
+        //task 8
+        for (int i = 1; i <= 12; i++){
+            myYearSavings = myYearSavings + 29000;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + myYearSavings + " рублей");
+        }
+
+
+        //task10
 
         for (int i = 1; i <= 10; i++){
             System.out.println("2 * " + i + " = " + (2 * i));
